@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #1e1e1e;
+    color: #cccccc;
+}
+
+.container{
+    margin: 2rem auto;
+    text-align: center;
+    width: 75%;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+#UserTaskInput{
+    background-color: #1e1e1e;
+    border-width: 0;
+    border-bottom: 1px solid #483d8b;
+    color: #cccccc;
+    font-size: 1.25rem;
+    outline: none;
+}
+
+#AddTask{
+    background-color: #483d8b;
+    border: none;
+    border-radius: 50%;
+    color: #1e1e1e;
+    cursor: pointer;
+    display: inline-block;
+    height: 1.8rem;
+    width: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#AddTask:active{
+    background-color: #6a5bce;
+}
+
+.ToDos{
+    margin-top: 1rem;
+}
+
+.li-styling{
+    list-style: none;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
